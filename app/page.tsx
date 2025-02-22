@@ -54,7 +54,7 @@ function DemoMeetingTab(props: { label: string }) {
   };
   return (
     <div className={styles.tabContent}>
-      <p style={{ margin: 0 }}>Tag @luvnft #LUVNFTLIVE</p>
+      <p style={{ margin: 0 }}>Promote your live shows on LUV NFT FUN social.</p>
       <button style={{ marginTop: '1rem' }} className="lk-button" onClick={startMeeting}>
         Start Show
       </button>
@@ -106,13 +106,13 @@ function CustomConnectionTab(props: { label: string }) {
   return (
     <form className={styles.tabContent} onSubmit={onSubmit}>
       <p style={{ marginTop: 0 }}>
-        Connect LiveKit Meet with a custom server using LiveKit Cloud or LiveKit Server.
+        Connect LUV NFT LIVE with a custom server using LUV NFT Cloud or LUV NFT Server.
       </p>
       <input
         id="serverUrl"
         name="serverUrl"
         type="url"
-        placeholder="LiveKit Server URL: wss://*.livekit.cloud"
+        placeholder="LUV NFT Server URL: wss://*luvnft.cloud"
         required
       />
       <textarea
@@ -188,7 +188,7 @@ export default function Page() {
       <footer data-lk-theme="default">
          Powered by{' '}
         <a href="https://luvnft.com" rel="noopener">
-          LUV NFT 
+          LUV NFT  
         </a>
          and the social{' '}
         <a href="https://fun.luvnft.com" rel="noopener">
