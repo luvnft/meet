@@ -54,9 +54,9 @@ function DemoMeetingTab(props: { label: string }) {
   };
   return (
     <div className={styles.tabContent}>
-      <p style={{ margin: 0 }}>Try LiveKit Meet for free with our live demo project.</p>
+      <p style={{ margin: 0 }}>Tag @luvnft #LUVNFTLIVE</p>
       <button style={{ marginTop: '1rem' }} className="lk-button" onClick={startMeeting}>
-        Start Meeting
+        Start Show
       </button>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
         <div style={{ display: 'flex', flexDirection: 'row', gap: '1rem' }}>
@@ -165,34 +165,34 @@ export default function Page() {
     <>
       <main className={styles.main} data-lk-theme="default">
         <div className="header">
-          <img src="/images/livekit-meet-home.svg" alt="LiveKit Meet" width="360" height="45" />
+          <img src="/images/luv_nft_live.svg" alt="LUV NFT LIVE" width="360" height="45" />
           <h2>
-            Open source video conferencing app built on{' '}
-            <a href="https://github.com/livekit/components-js?ref=meet" rel="noopener">
-              LiveKit&nbsp;Components
-            </a>
-            ,{' '}
-            <a href="https://livekit.io/cloud?ref=meet" rel="noopener">
-              LiveKit&nbsp;Cloud
+            Livestream social entertainment that pays creators 💯, royalties with no middleman fees.{' '}
+            <a href="https://sub.luvnft.com" rel="noopener">
+              Subscribe
+            </a> to create a PPV show event promo campaign,
+            {' '}
+            <a href="https://fun.luvnft.com" rel="noopener">
+              Sign Up
             </a>{' '}
-            and Next.js.
+            for social updates.
           </h2>
         </div>
         <Suspense fallback="Loading">
           <Tabs>
-            <DemoMeetingTab label="Demo" />
+            <DemoMeetingTab label="Show" />
             <CustomConnectionTab label="Custom" />
           </Tabs>
         </Suspense>
       </main>
       <footer data-lk-theme="default">
-        Hosted on{' '}
-        <a href="https://livekit.io/cloud?ref=meet" rel="noopener">
-          LiveKit Cloud
+         Powered by{' '}
+        <a href="https://luvnft.com" rel="noopener">
+          LUV NFT 
         </a>
-        . Source code on{' '}
-        <a href="https://github.com/livekit/meet?ref=meet" rel="noopener">
-          GitHub
+         and the social{' '}
+        <a href="https://fun.luvnft.com" rel="noopener">
+          LUV NFT FUN
         </a>
         .
       </footer>

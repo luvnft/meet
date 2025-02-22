@@ -5,14 +5,14 @@ import type { Metadata, Viewport } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    default: 'LiveKit Meet | Conference app build with LiveKit open source',
+    default: 'LUV NFT FUN | Livestream social entertainment',
     template: '%s',
   },
   description:
-    'LiveKit is an open source WebRTC project that gives you everything needed to build scalable and real-time audio and/or video experiences in your applications.',
+    'LUV NFT FUN is the first Livestream social entertainment network that pays creators 100%.',
   twitter: {
-    creator: '@livekitted',
-    site: '@livekitted',
+    creator: '@wizardofhahz',
+    site: '@luvnft',
     card: 'summary_large_image',
   },
   openGraph: {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
         type: 'image/png',
       },
     ],
-    siteName: 'LiveKit Meet',
+    siteName: 'LUV NFT LIVE',
   },
   icons: {
     icon: {
